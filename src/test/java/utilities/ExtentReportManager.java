@@ -87,7 +87,7 @@ public void onFinish(ITestContext testContext)
 {
 	extent.flush();
 	
-	/* try {
+	 try {
 	URL url = new URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);
 	
 	 // Create the email message
@@ -107,7 +107,7 @@ public void onFinish(ITestContext testContext)
 	catch(Exception e)
 	{
 		e.printStackTrace();
-	}*/
+	}
 	}
 
 }
